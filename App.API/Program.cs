@@ -1,5 +1,6 @@
 using App.API.Extensions;
 using App.Application.Extensions;
+using App.Bus;
 using App.Persistance.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViewsExt().AddSwaggerGenExt().AddExceptionHandlerExt().AddCachingExt();
 
-builder.Services.AddRepository(builder.Configuration).AddServices();
+builder.Services.AddRepository(builder.Configuration).AddServices().AddBusExt(builder.Configuration);
 
 //builder.Services.AddScoped(typeof(NotFoundFilter<,>));
 

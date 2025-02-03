@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32A939F4-5ECB-4689-BE0C-C20F3F97447A}|App.Bus\\App.Bus.csproj|c:\\users\\pc\\source\\repos\\netcoreapiwebcleanarchitecture\\app.bus\\busextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A939F4-5ECB-4689-BE0C-C20F3F97447A}|App.Bus\\App.Bus.csproj|solutionrelative:app.bus\\busextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F065975E-505A-4E16-9DFB-57C250B0E8C4}|App.Domain\\App.Domain.csproj|c:\\users\\pc\\source\\repos\\netcoreapiwebcleanarchitecture\\app.domain\\events\\productaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F065975E-505A-4E16-9DFB-57C250B0E8C4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\events\\productaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F4C6DC-4D6F-4EC4-9486-1FF81F9D081F}|App.API\\App.API.csproj|c:\\users\\pc\\source\\repos\\netcoreapiwebcleanarchitecture\\app.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6F4C6DC-4D6F-4EC4-9486-1FF81F9D081F}|App.API\\App.API.csproj|solutionrelative:app.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A939F4-5ECB-4689-BE0C-C20F3F97447A}|App.Bus\\App.Bus.csproj|c:\\users\\pc\\source\\repos\\netcoreapiwebcleanarchitecture\\app.bus\\servicebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A939F4-5ECB-4689-BE0C-C20F3F97447A}|App.Bus\\App.Bus.csproj|solutionrelative:app.bus\\servicebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F065975E-505A-4E16-9DFB-57C250B0E8C4}|App.Domain\\App.Domain.csproj|c:\\users\\pc\\source\\repos\\netcoreapiwebcleanarchitecture\\app.domain\\events\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F065975E-505A-4E16-9DFB-57C250B0E8C4}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\events\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Bus\\BusExtensions.cs",
+              "RelativeDocumentMoniker": "App.Bus\\BusExtensions.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Bus\\BusExtensions.cs",
+              "RelativeToolTip": "App.Bus\\BusExtensions.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T21:42:01.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEvent.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Domain\\Events\\IEvent.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Events\\IEvent.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Domain\\Events\\IEvent.cs",
+              "RelativeToolTip": "App.Domain\\Events\\IEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T21:20:11.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceBus.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Bus\\ServiceBus.cs",
+              "RelativeDocumentMoniker": "App.Bus\\ServiceBus.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Bus\\ServiceBus.cs",
+              "RelativeToolTip": "App.Bus\\ServiceBus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T21:16:44.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.API\\appsettings.json",
+              "RelativeDocumentMoniker": "App.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.API\\appsettings.json",
+              "RelativeToolTip": "App.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T21:12:03.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductAddedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Domain\\Events\\ProductAddedEvent.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Events\\ProductAddedEvent.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\NetCoreApiWebCleanArchitecture\\App.Domain\\Events\\ProductAddedEvent.cs",
+              "RelativeToolTip": "App.Domain\\Events\\ProductAddedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T21:08:17.356Z",
+              "EditorCaption": ""
             }
           ]
         }

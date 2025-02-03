@@ -13,3 +13,4 @@ C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Application\obj\Debu
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Application\obj\Debug\net8.0\refint\App.Application.dll
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Application\obj\Debug\net8.0\App.Application.pdb
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Application\obj\Debug\net8.0\ref\App.Application.dll
+C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Application\obj\Debug\net8.0\App.Application.sourcelink.json

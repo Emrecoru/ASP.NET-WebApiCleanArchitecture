@@ -15,3 +15,4 @@ C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Caching\obj\Debug\ne
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Caching\obj\Debug\net8.0\refint\App.Caching.dll
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.pdb
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Caching\obj\Debug\net8.0\ref\App.Caching.dll
+C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.sourcelink.json

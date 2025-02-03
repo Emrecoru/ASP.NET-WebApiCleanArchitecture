@@ -17,3 +17,4 @@ C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Persistance\obj\Debu
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Persistance\obj\Debug\net8.0\ref\App.Persistance.dll
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Persistance\bin\Debug\net8.0\App.Persistance.runtimeconfig.json
 C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Persistance\obj\Debug\net8.0\App.Persistance.genruntimeconfig.cache
+C:\Users\pc\source\repos\NetCoreApiWebCleanArchitecture\App.Persistance\obj\Debug\net8.0\App.Persistance.sourcelink.json
