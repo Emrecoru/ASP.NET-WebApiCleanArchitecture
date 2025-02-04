@@ -1,10 +1,12 @@
 ﻿using App.Application.Contracts.Caching;
 using App.Application.Contracts.Persistance;
+using App.Application.Contracts.ServiceBus;
 using App.Application.Features.Products.Create;
 using App.Application.Features.Products.Dto;
 using App.Application.Features.Products.Update;
 using App.Application.Features.Products.UpdateStock;
 using App.Domain.Entities;
+using App.Domain.Events;
 using AutoMapper;
 using FluentValidation;
 using System.Net;
@@ -19,10 +21,11 @@ namespace App.Application.Features.Products
         private readonly IMapper _mapper;
         private readonly IValidator<UpdateProductRequest> _updateProductRequestValidator;
         private readonly ICacheService _cacheService;
+        private readonly IServiceBus _serviceBus;
 
         private const string ProductListCacheKey = "ProductListCacheKey";
 
-        public ProductService(IProductRepository productRepository, IUnitOfWork unitOfWork, IValidator<CreateProductRequest> createProductRequestValidator, IMapper mapper, IValidator<UpdateProductRequest> updateProductRequestValidator, ICacheService cacheService)
+        public ProductService(IProductRepository productRepository, IUnitOfWork unitOfWork, IValidator<CreateProductRequest> createProductRequestValidator, IMapper mapper, IValidator<UpdateProductRequest> updateProductRequestValidator, ICacheService cacheService, IServiceBus serviceBus)
         {
             this.productRepository = productRepository;
             _unitOfWork = unitOfWork;
@@ -30,6 +33,7 @@ namespace App.Application.Features.Products
             _mapper = mapper;
             _updateProductRequestValidator = updateProductRequestValidator;
             _cacheService = cacheService;
+            _serviceBus = serviceBus;
         }
 
         public async Task<ServiceResult<List<ProductDto>>> GetTopPriceProductsAsync(int count)
@@ -126,6 +130,8 @@ namespace App.Application.Features.Products
             await productRepository.AddAsync(product);
 
             await _unitOfWork.SaveChangesAsync();
+
+            await _serviceBus.PublishAsync(new ProductAddedEvent(product.Id, product.Name, product.Price));
 
             return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id),
                 $"api/products/{product.Id}" );

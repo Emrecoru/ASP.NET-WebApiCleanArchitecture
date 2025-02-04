@@ -15,12 +15,12 @@ namespace App.Bus
             _sendEndpointProvider = sendEndpointProvider;
         }
 
-        public async Task PublishAsync<T>(T @event, CancellationToken cancellationToken = default) where T : IMessage, IEvent
+        public async Task PublishAsync<T>(T @event, CancellationToken cancellationToken = default) where T : IEventOrMessage
         {
            await _publishEndpoint.Publish(@event, cancellationToken);
         }
 
-        public async Task SendAsync<T>(T message, string queueName, CancellationToken cancellationToken = default) where T : IMessage, IEvent
+        public async Task SendAsync<T>(T message, string queueName, CancellationToken cancellationToken = default) where T : IEventOrMessage
         {
             var endpoint = await _sendEndpointProvider.GetSendEndpoint(new Uri($"queue:${queueName}"));
 
